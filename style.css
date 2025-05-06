@@ -25,10 +25,24 @@ body {
 }
 
 header {
-  background-color: aqua;
   margin-top: 70px;
 }
+.righteous-regular {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+header a {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-family: 'Righteous', sans-serif;
+}
 main {
   background-color: tomato;
   flex-grow: 3;

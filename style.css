@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.righteous-regular {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --primary-color: #f5cf06;
   --secondary-color: #8e4106;
@@ -14,6 +20,7 @@ body {
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
+  font-family: 'Righteous', sans-serif;
 }
 
 .container {
@@ -27,11 +34,6 @@ body {
 header {
   margin-top: 70px;
 }
-.righteous-regular {
-  font-family: 'Righteous', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 header a {
   grid-column: 1/-1;
@@ -41,11 +43,41 @@ header a {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 2rem;
-  font-family: 'Righteous', sans-serif;
 }
 main {
-  background-color: tomato;
   flex-grow: 3;
+}
+
+.title {
+  position: relative;
+  grid-column: 1/-1;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title__text {
+  font-size: 20vw;
+  color: #fff;
+}
+
+.title.transparent {
+  position: absolute;
+  top: -50%;
+  font-size: 27vw;
+  color: #fff5;
+  z-index: -1;
+}
+
+.description {
+  background-color: rgb(192, 78, 192);
+  grid-column: 1/7;
+}
+
+.action {
+  background-color: yellowgreen;
+  grid-column: 7/-1;
 }
 
 footer {

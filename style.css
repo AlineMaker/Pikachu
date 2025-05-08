@@ -71,10 +71,18 @@ main {
 }
 
 .description {
-  background-color: rgb(192, 78, 192);
+  color: var(--secondary-color);
   grid-column: 1/7;
+  place-self: center start;
 }
 
+.description__title {
+  font-size: 4rem;
+}
+
+.description__text {
+  font-size: 1.5rem;
+}
 .action {
   background-color: yellowgreen;
   grid-column: 7/-1;

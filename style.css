@@ -64,7 +64,7 @@ main {
 
 .title.transparent {
   position: absolute;
-  top: -50%;
+  top: -30%;
   font-size: 27vw;
   color: #fff5;
   z-index: -1;

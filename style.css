@@ -124,7 +124,7 @@ main {
     margin-top: 30px;
   }
   .title {
-    place-self: start center;
+    place-self: center;
   }
   .description {
     grid-column: 1;
@@ -146,6 +146,7 @@ main {
 @media (max-width: 640px) {
   .description__title {
     font-size: 10vw;
+    
   }
   .description__text {
     display: none;

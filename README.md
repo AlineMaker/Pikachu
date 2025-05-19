@@ -1,8 +1,8 @@
 # Landing Page - Let´s Go, Pikachu
 
 ![](./img/screenshot.png)
-![]
-![]
+![](./img/tablet.png)
+![](./img/celular.png)
 ---
 
 ## Sobre

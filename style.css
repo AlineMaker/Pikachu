@@ -124,8 +124,11 @@ main {
     margin-top: 30px;
   }
   .title {
+    top: -20%;
     place-self: center;
+
   }
+ 
   .description {
     grid-column: 1;
     grid-row: 2;
@@ -133,7 +136,7 @@ main {
     text-align: center;
   }
   .action {
-    grid-column: 1;
+    grid-column: 1;   
     grid-row: 2;
     place-self: end center;
     margin-bottom: 24px;
@@ -145,8 +148,12 @@ main {
 
 @media (max-width: 640px) {
   .description__title {
-    font-size: 10vw;
+    font-size: 10vw; 
     
+  }
+
+  header {
+    margin-top: 30px;
   }
   .description__text {
     display: none;
